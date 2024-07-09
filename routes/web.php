@@ -26,6 +26,12 @@ Route::get('/users', function () {
 });
 
 
+Route::get('/customers', function () {
+
+    return view('users.list');
+
+});
+
 
 
 
